@@ -1,0 +1,18 @@
+{
+  "name": "nota-modern",
+  "version": "1.0.0",
+  "description": "Aplikasi nota modern berbasis desktop",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-css": "tailwindcss build src/styles.css -o src/output.css"
+  },
+  "dependencies": {
+    "electron": "^25.0.0",
+    "sqlite3": "^5.1.2",
+    "chart.js": "^4.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
